@@ -1,0 +1,82 @@
+
+                                      ARENA Simulation Results
+                              jhonmacao@outlook.com - License: STUDENT
+
+                                  Summary for Replication 1 of 1
+
+Project: reporte 1                                                   Run execution date : 8/10/2022
+Analyst: analista 1                                                  Model revision date: 8/10/2022
+
+Replication ended at time      : 31.0 Days 
+Base Time Units: Days
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Personas.VATime                             .49386     (Insuf)    .00000     7.0833        195    
+Personas.NVATime                            .00000     (Insuf)    .00000     .00000        195    
+Personas.WaitTime                           2.0845     (Insuf)    .00000     24.277        195    
+Personas.TranTime                           .00000     (Insuf)    .00000     .00000        195    
+Personas.OtherTime                          .00000     (Insuf)    .00000     .00000        195    
+Personas.TotalTime                          2.5783     (Insuf)    .00000     25.847        195    
+España.Queue.WaitingTime                    5.9766     (Insuf)    .00000     10.927         18    
+Entrega dinero entidad financiera.Queue.Wa  8.6972     (Insuf)    .00000     12.853         33    
+EEUU.Queue.WaitingTime                      11.534     (Insuf)    .00000     22.752         20    
+Otros Paises.Queue.WaitingTime              .58450     (Insuf)    .00000     1.8439         18    
+Italia.Queue.WaitingTime                    .69895     (Insuf)    .00000     2.0536         12    
+Process 2.Queue.WaitingTime                     --         --         --         --          0
+Process 1.Queue.WaitingTime                     --         --         --         --          0
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Personas.WIP                                58.831     (Insuf)    .00000     123.00     115.00    
+Envios Otros.NumberBusy                     .89585     (Insuf)    .00000     1.0000     1.0000    
+Envios Otros.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Envios Otros.Utilization                    .89585     (Insuf)    .00000     1.0000     1.0000    
+EnviosEspana.NumberBusy                     .93548     (Insuf)    .00000     1.0000     1.0000    
+EnviosEspana.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+EnviosEspana.Utilization                    .93548     (Insuf)    .00000     1.0000     1.0000    
+EnviosItalia.NumberBusy                     .59087     (Insuf)    .00000     1.0000     1.0000    
+EnviosItalia.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+EnviosItalia.Utilization                    .59087     (Insuf)    .00000     1.0000     1.0000    
+EnviosEEUU.NumberBusy                       .96774     (Insuf)    .00000     1.0000     1.0000    
+EnviosEEUU.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+EnviosEEUU.Utilization                      .96774     (Insuf)    .00000     1.0000     1.0000    
+Receptor.NumberBusy                         .92452     (Insuf)    .00000     1.0000     1.0000    
+Receptor.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Receptor.Utilization                        .92452     (Insuf)    .00000     1.0000     1.0000    
+España.Queue.NumberInQueue                  6.2767     (Insuf)    .00000     15.000     15.000    
+Entrega dinero entidad financiera.Queue.Nu  13.059     (Insuf)    .00000     28.000     22.000    
+EEUU.Queue.NumberInQueue                    34.506     (Insuf)    .00000     72.000     72.000    
+Otros Paises.Queue.NumberInQueue            .40390     (Insuf)    .00000     2.0000     1.0000    
+Italia.Queue.NumberInQueue                  .27056     (Insuf)    .00000     2.0000     .00000    
+Process 2.Queue.NumberInQueue               .00000     (Insuf)    .00000     .00000     .00000    
+Process 1.Queue.NumberInQueue               .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Personas.NumberIn                           310.00    
+Personas.NumberOut                          195.00    
+Envios Otros.NumberSeized                   18.000    
+Envios Otros.ScheduledUtilization           .89585    
+EnviosEspana.NumberSeized                   18.000    
+EnviosEspana.ScheduledUtilization           .93548    
+EnviosItalia.NumberSeized                   12.000    
+EnviosItalia.ScheduledUtilization           .59087    
+EnviosEEUU.NumberSeized                     20.000    
+EnviosEEUU.ScheduledUtilization             .96774    
+Receptor.NumberSeized                       33.000    
+Receptor.ScheduledUtilization               .92452    
+System.NumberOut                            195.00    
+
+
+Simulation run time: 0.25 minutes.
+Simulation run complete.

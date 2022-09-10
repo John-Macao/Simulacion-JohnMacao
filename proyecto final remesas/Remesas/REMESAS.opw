@@ -1,0 +1,25 @@
+[RESOURCES]
+Envios Otros
+EnviosEspana
+EnviosItalia
+EnviosEEUU
+Receptor
+[VARIABLES]
+¿puede enviar el dinero?.NumberOut False
+¿Se recepta?.NumberOut False
+EEUU.NumberOut
+EEUU.NumberIn
+Otros Paises.NumberIn
+¿puede enviar el dinero?.NumberOut True
+No Receptado.NumberOut
+Entrega dinero entidad financiera.NumberIn
+Entrega dinero entidad financiera.NumberOut
+Llegada de clientes.NumberOut
+Fin ejecución.NumberOut
+¿Se recepta?.NumberOut True
+Italia.NumberIn
+Italia.NumberOut
+España.NumberIn
+Enfermo.NumberOut
+España.NumberOut
+Otros Paises.NumberOut
